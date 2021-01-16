@@ -121,7 +121,6 @@ var convertToCelsius = (fahrenheit) =>
 {
     if(typeof(fahrenheit) == "undefined" || typeof(fahrenheit) == "string" || typeof(fahrenheit) == "object") 
     {
-        //console.log("Technical Error!");
         return "Technical Error!";
     }
     else
